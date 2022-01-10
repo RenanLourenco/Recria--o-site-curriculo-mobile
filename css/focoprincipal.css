@@ -1,0 +1,42 @@
+.focoprincipal {
+    background-color: #b3b5b4;
+}
+.focoprincipal__titulo {
+    font-size: 7vw;
+    color:white;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-weight: 600;
+}
+.focoprincipal__subtitulo{
+    color: #000000 ;
+    font-style: italic;
+    font-weight: bold;
+}
+.focoprincipal__conteudo{
+    padding-top: 3vw;
+    font-weight: 600;
+}
+.focoprincipal__paisagem{
+    width: 100vw;
+    box-shadow: 5px 10px 8px #888888;
+    padding-top: 3vw;
+}
+@media screen and (min-width:1024px){
+    .focoprincipal__titulo{
+        font-size: 40px;
+    }
+    .focoprincipal__paisagem{
+        width: 30vw;
+        box-shadow: 0px 0px 0px;
+        
+    }
+    .focoprincipal__conteudo{
+        font-size: 40px;
+    }
+    .focoprincipal__subtitulo{
+        font-size: 40px;
+        text-align: center;
+    }
+}

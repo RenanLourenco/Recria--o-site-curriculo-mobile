@@ -1,0 +1,30 @@
+.contatos{
+    background-color: slategrey;
+}
+.contatos__icones {
+    width: 10vw;
+    padding-top: 30px;
+    padding-bottom: 4vw;
+    margin-right: 5vw;
+}
+.contatos__contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+.contatos__titulo {
+    padding-top: 3vw;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+}
+@media screen and (min-width:1024px){
+    .contatos__icones{
+        width: 100px;
+    }
+    .contatos__titulo{
+        font-size: 40px;
+    }
+}
